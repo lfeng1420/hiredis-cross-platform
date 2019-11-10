@@ -5,3 +5,6 @@
 /*.dylib
 /*.a
 /*.pc
+/vsproject/.vs
+/vsproject/.vs/build_tmp
+/vsproject/build_tmp

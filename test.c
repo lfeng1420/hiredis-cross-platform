@@ -43,7 +43,7 @@ struct config {
 /* The following lines make up our testing "framework" :) */
 static int tests = 0, fails = 0;
 #define test(_s) { printf("#%02d ", ++tests); printf(_s); }
-#define test_cond(_c) if(_c) printf("\033[0;32mPASSED\033[0;0m\n"); else {printf("line:%d \033[0;31mFAILED\033[0;0m\n", __LINE__); fails++;}
+#define test_cond(_c) if(_c) printf("\033[0;32mPASSED\033[0;0m\n"); else {printf("\033[0;31mFAILED\033[0;0m\n"); fails++;}
 #ifdef OS_WINDOWS
 #define test_check(rediserr, wsaerr, othercond) {  \
     char errstr[32];    \
