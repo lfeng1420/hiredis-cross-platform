@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\sds.c" />
+    <ClCompile Include="..\async.c" />
+    <ClCompile Include="..\dict.c" />
+    <ClCompile Include="..\hiredis.c" />
+    <ClCompile Include="..\net.c" />
+    <ClCompile Include="..\read.c" />
+    <ClCompile Include="..\platform.c" />
+  </ItemGroup>
+</Project>
